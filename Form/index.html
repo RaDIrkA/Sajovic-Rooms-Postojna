@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery.nice.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+<title>Contact Form</title>
+
+</head>
+<body>
+<div class="maindiv">
+  <div class="mainhead"> SSajovic / Sobe / Rooms / Zimmer / Camere </div>
+  <div class="maindesc"> Form popolnoma urejen + po poslanem sporočilo prejmes zahvalno na svoj spodaj podan email / META love U </div>
+  <div id="status"></div>
+
+  <div id="contactform">
+	  <form method="post" action="contact.php" name="nicecontactform" id="nicecontactform" >
+  
+    <label for="username" class="title">Your Name <span class="required">*</span></label>
+    <input id="username" type="text" value="" size="30" name="username">
+    <br />
+    
+    <label for="emailid">Email Address <span class="required">*</span></label>
+    <input id="emailid" type="text" value="" size="30" name="emailid">
+    <br />
+    
+    <label for="phone">Phone</label>
+    <input id="phone" type="text" value="" size="30" name="phone">
+    <br />    
+    <label for="message">Message <span class="required">*</span></label>
+    <textarea name="message" id="message"></textarea>
+    
+    
+    <p>Seštevanka<span class="required">*</span></p>
+    <label for="phone">
+    <div id="captcha-holder" class="captcha"></div>
+    </label>
+    <input id="captcha" type="text" value="" size="5" name="captcha">
+    <br />
+    
+    <input id="contact_btn" class="btn ajax_submit_btn" type="submit" value="Submit" name="button">
+  </form>
+	  <script src="nicecaptcha.php"></script>
+  </div>
+</div>
+</body>
+</html>

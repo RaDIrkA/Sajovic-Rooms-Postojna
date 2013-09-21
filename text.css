@@ -1,0 +1,34 @@
+
+
+	/*new fonts*/
+@font-face {font-family:"belligerent";
+	src:url(Font/Belligerent-Madness/belligerent-webfont.ttf);
+	src:url(Font/Belligerent-Madness/belligerent-webfont.eot);}
+@font-face {font-family:"belligerent";
+	src:url(Font/Belligerent-Madness/belligerent-webfont.svg);
+	src:url(Font/Belligerent-Madness/belligerent-webfont.woff);}
+@font-face {font-family:"DJGROSS";
+	src:url(Font/DJ-Gross-fontfacekit/DJGROSS-webfont.ttf);
+	src:url(Font/DJ-Gross-fontfacekit/DJGROSS-webfont.eot);}	
+@font-face {font-family:"DJGROSS";
+	src:url(Font/DJ-Gross-fontfacekit/DJGROSS-webfont.svg);
+	src:url(Font/DJ-Gross-fontfacekit/DJGROSS-webfont.woff);}	
+@font-face {font-family:"SpecialElite";
+	src:url(Font/special-elite-fontfacekit/SpecialElite-webfont.ttf);
+	src:url(Font/special-elite-fontfacekit/SpecialElite-webfont.eot);}	
+@font-face {font-family:"SpecialElite";
+	src:url(Font/special-elite-fontfacekit/SpecialElite-webfont.svg);
+	src:url(Font/special-elite-fontfacekit/SpecialElite-webfont.woff);}	
+@font-face {font-family:"VAG HandWritten";
+	src:url(Font/VAG-HandWritten-fontfacekit/VAG-HandWritten-webfont.ttf);
+	src:url(Font/VAG-HandWritten-fontfacekit/VAG-HandWritten-webfont.eot);}	
+@font-face {font-family:"VAG HandWritten";
+	src:url(Font/VAG-HandWritten-fontfacekit/VAG-HandWritten-webfont.svg);
+	src:url(Font/VAG-HandWritten-fontfacekit/VAG-HandWritten-webfont.woff);}	
+@font-face {font-family:"ArchitectsDaughter";
+	src:url(Font/architects-daughter-fontfacekit/ArchitectsDaughter-webfont.ttf);
+	src:url(Font/architects-daughter-fontfacekit/ArchitectsDaughter-webfont.eot);}
+@font-face {font-family:"ArchitectsDaughter";
+	src:url(Font/architects-daughter-fontfacekit/ArchitectsDaughter-webfont.svg);
+	src:url(Font/architects-daughter-fontfacekit/ArchitectsDaughter-webfont.woff);}	
+		/*end fonts*/

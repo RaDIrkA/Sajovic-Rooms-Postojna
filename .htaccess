@@ -1,0 +1,17 @@
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^index.html.*$ http://postojna-rooms-sajovic.si [R=301,L]
+
+RewriteRule ^ENG/index.html.*$ http://postojna-rooms-sajovic.si/ENG [R=301,L]
+RewriteRule ^IT/index.html.*$ http://postojna-rooms-sajovic.si/IT [R=301,L]
+
+
+ErrorDocument 404 /404.html
+
+# Google Analytics Integration - Added by cPanel.
+<IfModule mod_substitute.c>
+AddOutputFilterByType SUBSTITUTE text/html
+Substitute "s|(<script src='/google_analytics_auto.js'></script>)?</head>|<script src='/google_analytics_auto.js'></script></head>|i"
+</IfModule>
+# END Google Analytics Integration
